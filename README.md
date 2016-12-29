@@ -1,5 +1,5 @@
 ###purpose of this page
-you clone down this project<br>... remove the .git file and then paste it into <br>github submodulizer. https://github.com/murjax/Github-Repo-Submodulizer<br>both my_repositories and Testing
+you clone down this project ... remove the .git file and then paste it into <br>github submodulizer. https://github.com/murjax/Github-Repo-Submodulizer<br>both my_repositories and Testing
 
 ###map of testing environment
 <pre>
