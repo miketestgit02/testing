@@ -1,5 +1,5 @@
 ###map of testing environment
-<prev>
+<pre>
 `cmd tree`
 .
 ├── 1_test_CheckReadmeAndSubdirs
@@ -18,4 +18,13 @@
 │   └── e_NoSubReadme
 └── 2_test_MasterRepoNoSub
     └── README.md
-</prev>
+</pre>
+
+
+It could be that this command is the trouble.
+
+cd Testing/;rm -rf *; rm -rf .*; cd ../; cd my_repositories/; rm -rf *; rm -rf .*;
+
+cd ../../testing/; cp -r * ../Github-Repo-Submodulizer/Testing/; cp -r * ../Github-Repo-Submodulizer/my_repositories/;
+
+cd ../Github-Repo-Submodulizer; rake submodulize_folder;
