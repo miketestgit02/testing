@@ -1,5 +1,5 @@
 ###purpose of this page
-you clone down ... remove the .git file and then paste it into github submodulizer. both my_repositories and Testing
+you clone down ... remove the .git file and then paste it into github submodulizer. <br>both my_repositories and Testing
 
 ###map of testing environment
 <pre>
